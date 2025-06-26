@@ -72,7 +72,7 @@ Final Score = 0.6 * SkillScore + 0.4 * ExperienceScore
 
 Here’s a visual overview of how the Automated Resume Screener works:
 
-![Workflow Diagram](./workflow.png)
+![Workflow Diagram](./workflow)
 
 ---
 
