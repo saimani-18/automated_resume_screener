@@ -1,0 +1,54 @@
+
+@media print {
+  body {
+    background-color: white !important;
+  }
+  
+  nav, button, .printing-hide {
+    display: none !important;
+  }
+  
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .printing-report {
+    font-size: 12pt;
+  }
+  
+  .printing-report h1 {
+    font-size: 18pt;
+    margin-bottom: 10px;
+  }
+  
+  .printing-report h2, .printing-report h3 {
+    font-size: 14pt;
+    margin-bottom: 8px;
+  }
+  
+  .printing-report p {
+    margin-bottom: 6px;
+  }
+  
+  .printing-report .recharts-wrapper {
+    margin: 0 auto;
+  }
+}
+
+/* Animation for the fade-in effect */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
