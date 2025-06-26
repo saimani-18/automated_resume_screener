@@ -70,20 +70,9 @@ Final Score = 0.6 * SkillScore + 0.4 * ExperienceScore
 
 ## 🔁 End-to-End Workflow
 
-```mermaid
-graph TD
-A[Upload Resume & Job Description] --> B[Text Extraction (PyMuPDF, EasyOCR)]
-B --> C[Resume Parsing (Regex, SpaCy)]
-C --> D[Skill Extraction (DistilBERT)]
-C --> E[Experience Quantification (BERT + Regex)]
-D --> F[Cosine Similarity Calculation]
-E --> F
-F --> G[Weighted Scoring]
-G --> H[Candidate Ranking]
-G --> I[Resume Summarization (FLAN-T5)]
-H --> J[Dashboard Display]
-I --> J
-```
+Here’s a visual overview of how the Automated Resume Screener works:
+
+![Workflow Diagram](./workflow.png)
 
 ---
 
