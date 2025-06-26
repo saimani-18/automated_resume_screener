@@ -142,25 +142,6 @@ npm install
 npm run dev
 ```
 
----
-
-
-## 👥 Team Members
-
-| Name | Role |
-|------|------|
-| **Sai Manikanta Patro** | Resume Parsing & Skill Matching |
-| **Arikathota Hruday Vikas** | Experience Quantification |
-| **Shreya Allupati** | Weighted Scoring & Ranking |
-| **Kunjal Grover** | Text Summarization |
-| **Isha Durge** | Web Development (Full Stack) |
-| **Guru Sai Eshwar Reddy** | Research & Workflow Design |
-
-**Supervisor:** Prof. Pradeep Kandula  
-**Affiliation:** KIIT School of Computer Engineering
-
----
-
 ## 📜 License
 
 This project is licensed under the **MIT License**. See `LICENSE` for more details.
