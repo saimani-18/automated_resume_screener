@@ -142,8 +142,5 @@ npm install
 npm run dev
 ```
 
-## 📜 License
-
-This project is licensed under the **MIT License**. See `LICENSE` for more details.
 
  
